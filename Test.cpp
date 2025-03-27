@@ -15,6 +15,10 @@ private:
     {
         return _price;
     }
+    string getName()
+    {
+        return _name;
+    }
 public:
     string _name;
     string _author;
