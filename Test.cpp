@@ -11,6 +11,10 @@ private:
             _price = price;
         }
     }
+    int get()
+    {
+        return _price;
+    }
 public:
     string _name;
     string _author;
