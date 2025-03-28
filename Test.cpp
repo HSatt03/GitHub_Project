@@ -19,6 +19,10 @@ private:
     {
         return _name;
     }
+    string getAuthor()
+    {
+        return _author;
+    }
 public:
     string _name;
     string _author;
