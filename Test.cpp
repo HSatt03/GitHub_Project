@@ -1,5 +1,19 @@
 #include <iostream>
 using namespace std;
+class Date
+{
+public:
+    Date()
+    {
+        _day = 1;
+        _month = 1;
+        _year = 1404;
+    }
+private: 
+    int _day;
+    int _month;
+    int _year;
+};
 class Lesson
 {
 private:
