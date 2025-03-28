@@ -23,6 +23,10 @@ private:
     {
         return _author;
     }
+    string  getISBN()
+    {
+        return _ISBN;
+    }
 public:
     string _name;
     string _author;
